@@ -4,7 +4,9 @@
   "description": "dddd",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "import": "postcss assets/styles/main.css --use  postcss-import  -o assets/css/main.import.css",
+    "prefix": "postcss assets/css/main.import.css --use  autoprefixer  -o assets/css/main.prefix.css",
+    "minify": "postcss assets/css/main.prefix.css --use  cssnano  -o assets/css/main.min.css"
   },
   "author": "gen-eslam",
   "license": "ISC",
