@@ -3,7 +3,7 @@
   margin: auto;
 }
 .row {
-  padding: 0 var(--row-xpadding);
+  padding: 0 var(--row-x-padding);
   display: grid;
-  grid-template-columns: var(--columns-numbers);
+  grid-template-columns: repeat(var(--columns-number), 1fr);
 }
