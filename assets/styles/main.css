@@ -1,0 +1,23 @@
+@import url(./base.css);
+@import url(./utilities.css);
+@import url(./layout.css);
+@import url(./componants.css);
+@import url(./animations.css);
+@import url(./home.css);
+@import url(./responsive.css);
+
+@font-face {
+  font-family: "Whitney";
+  src: url("../fonts/whitneybook.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Whitney";
+  src: url("../fonts/whitneymedium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Whitney";
+  src: url("../fonts/whitneybold.otf");
+  font-weight: bold;
+}

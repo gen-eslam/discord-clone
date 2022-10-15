@@ -1,0 +1,39 @@
+.dark {
+  color: var(--color-dark);
+}
+.light {
+  color: var(--color-light);
+}
+.primary {
+  color: var(--color-primary);
+}
+.white {
+  color: var(--color-white);
+}
+.bg--dark {
+  background-color: var(--color-dark);
+}
+.bg--light {
+  background-color: var(--color-light);
+}
+.bg--primary {
+  background-color: var(--color-primary);
+}
+.bg--white {
+  background-color: var(--color-white);
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title--primary {
+  font-size: 4.8rem; /* md,lg 5.6rem*/
+}
+.title--secondry {
+  font-size: 4rem; /* md,lg 4.8rem*/
+}
+.title--tertiary {
+  font-size: 2.3rem; /* md,lg 2.6rem*/
+  font-weight: var(--font-medium);
+}
